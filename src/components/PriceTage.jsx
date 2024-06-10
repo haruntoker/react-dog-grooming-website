@@ -14,7 +14,7 @@ export default function PriceTage() {
               <h3 className="mb-4 text-2xl font-semibold">Basic Grooming</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Ideal for regular maintenance and simple grooming tasks.</p>
               <div className="flex justify-center items-baseline my-8">
-                  <span className="mr-2 text-5xl font-extrabold">$29</span>
+                  <span className="mr-2 text-5xl font-extrabold">€29</span>
                   <span className="text-gray-500 dark:text-gray-400">/session</span>
               </div>
               {/* <!-- List --> */}
@@ -52,7 +52,7 @@ export default function PriceTage() {
               <h3 className="mb-4 text-2xl font-semibold">Premium Grooming</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Perfect for detailed grooming and specialized care.</p>
               <div className="flex justify-center items-baseline my-8">
-                  <span className="mr-2 text-5xl font-extrabold">$99</span>
+                  <span className="mr-2 text-5xl font-extrabold">€59</span>
                   <span className="text-gray-500 dark:text-gray-400">/session</span>
               </div>
               {/* <!-- List --> */}
@@ -90,7 +90,7 @@ export default function PriceTage() {
               <h3 className="mb-4 text-2xl font-semibold">Ultimate Grooming</h3>
               <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Comprehensive care for a pampered and healthy pet.</p>
               <div className="flex justify-center items-baseline my-8">
-                  <span className="mr-2 text-5xl font-extrabold">$199</span>
+                  <span className="mr-2 text-5xl font-extrabold">€99</span>
                   <span className="text-gray-500 dark:text-gray-400">/session</span>
               </div>
               {/* <!-- List --> */}
