@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DarkMode from "./DarkMode";
+import Logo from "../assets/logo.png"
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ export default function Navbar() {
           <div className="max-w-screen-4xl text-2xl flex flex-wrap items-center justify-between mx-auto p-6">
             <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
               <img
-                src="https://cdn3.iconfinder.com/data/icons/veterinary-25/64/Veterinary-30-512.png"
+                src={Logo}
                 className="h-12"
                 alt="Logo"
               />

@@ -1,4 +1,4 @@
-
+import Logo from "../assets/logo.png"
 
 export default function Footer() {
   return (
@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="mx-auto max-w-screen-xl">
         <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
-                <a href="src/assets/logo.png" className="flex items-center">
+                <a href={Logo} className="flex items-center">
                     <img src="src/assets/logo.png" className="mr-3 h-16" alt="FlowBite Logo" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">FlufFu</span>
                 </a>
