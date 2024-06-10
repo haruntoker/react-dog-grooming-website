@@ -12,7 +12,7 @@ export default function Navbar() {
     <section id="section">
       <div className="bg-gray-200 border-gray-200 dark:bg-gray-900 shadow-xl ">
         <nav className="">
-          <div className="max-w-screen text-2xl flex flex-wrap items-center justify-between mx-auto p-6">
+          <div className="max-w-screen-4xl text-2xl flex flex-wrap items-center justify-between mx-auto p-6">
             <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
               <img
                 src="https://cdn1.iconfinder.com/data/icons/city-flat-2/512/tree_element_nature_plant_garden_bush-1024.png"
