@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer className="p-4 bg-white sm:p-6 dark:bg-gray-800">
+    <footer className="p-4 bg-white sm:p-6 dark:bg-gray-800 md:mt-32">
     <div className="mx-auto max-w-screen-xl">
         <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com" className="hover:underline">FlufFu™</a>. All Rights Reserved.
+            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="#" className="hover:underline">FlufFu™</a>. All Rights Reserved.
             </span>
             <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                 <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
