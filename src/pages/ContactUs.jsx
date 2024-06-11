@@ -13,6 +13,7 @@ export default function ContactUs() {
 
   return (
     <div className="flex">
+       
           {/* img */}
           <div className="hidden lg:mt-0 lg:col-span-5 lg:flex max-w-4xl lg:items-center lg:justify-center">
           <img src={dogHeader} alt="mockup" />
