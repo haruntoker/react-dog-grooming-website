@@ -5,7 +5,7 @@ import animationData from "../assets/Animation.json";
 
 export default function Hero() {
   return (
-    <section className=" bg-white dark:bg-gray-900">
+    <section className=" bg-white dark:bg-gray-900 ">
        {/* Lottie animation as background */}
        <div className="absolute mt-20 inset-0 z-0 pointer-events-none">
         <Lottie animationData={animationData} loop={true} />
