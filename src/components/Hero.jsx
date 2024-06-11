@@ -1,9 +1,15 @@
 import dogHeader from "../assets/dog-header.png"
+import Lottie from 'lottie-react';
+import animationData from "../assets/Animation.json";
 
 
 export default function Hero() {
   return (
     <section className="bg-white dark:bg-gray-900">
+       {/* Lottie animation as background */}
+       <div className="absolute mt-20 inset-0 z-0 opacity-30">
+        <Lottie animationData={animationData} loop={true} />
+      </div>
       <div className="grid max-w-screen px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         {/* title */}
         <div className="flex flex-col  items-center justify-center mx-auto lg:col-span-7">
