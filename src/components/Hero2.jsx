@@ -19,8 +19,8 @@ groomers and using innovative techniques and grooming.</p>
                   Know Us More
                   
               </a>
-              <a href="#" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300  inline-flex items-center justify-center md:px-20 md:text-2xl tracking-widest px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                  Book a Treatment
+              <a href="#" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 inline-flex items-center justify-center px-5 md:px-28 md:text-2xl tracking-wide py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-cyan-700 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-600 dark:bg-slate-600 bg-cyan-500  dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                  Book Treatment
               </a> 
           </div>
                         
