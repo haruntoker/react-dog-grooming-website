@@ -163,7 +163,7 @@ export default function ContactUs() {
                 />
               </Switch>
             </div>
-            <Label className="text-sm leading-6 text-gray-600">
+            <Label className="text-sm leading-6 dark:text-gray-400 text-gray-700">
               By selecting this, you agree to our{' '}
               <a href="#" className="font-semibold text-cyan-600">
                 privacy&nbsp;policy
