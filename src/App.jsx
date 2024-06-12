@@ -26,13 +26,15 @@ const ServicesPage = () => (
   </Layout>
 );
 
-const ContactUsPage = () => {
-  return (
+const ContactUsPage = () => (
+  
     <Layout>
       <ContactUs />
     </Layout>
-  );
-};
+  
+);
+
+
 
 // Create the router with the defined routes
 const router = createBrowserRouter([
