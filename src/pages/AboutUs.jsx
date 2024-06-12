@@ -4,12 +4,10 @@ import dogImg from '../assets/dog-5.png'
 export default function AboutUs() {
   return (
     <div>
-      <div className="max-w-screen dark:text-white relative flex items-center justify-center overflow-hidden">
+      <div className="max-w-screen dark:text-white relative flex items-center  justify-center overflow-hidden">
         <div className="relative mx-auto h-full px-4 sm:max-w-xl md:max-w-full max-w-screen-4xl md:px-24 lg:px-8">
-        <div
-        className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
-        aria-hidden="true"
-      >
+          {/* background item */}
+        <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true">
         <div
           className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"
           style={{
@@ -18,18 +16,16 @@ export default function AboutUs() {
           }}
         />
       </div>
-          <div className="flex flex-col items-center justify-between lg:flex-row py-16">
+          <div className="flex flex-col items-center  justify-between lg:flex-row py-16">
             <div className="relative">
-              <div className="absolute top-0 -left-48 z-0 opacity-50">
-                {/* <img src={dogImg} className="w-36 z-0 h-full object-fill fill-y text-y"/> */}
-              </div>
+              
               <div className="lg:max-w-4xl lg:pr-5 relative md:ml-24">
-                <p className="flex text-xl font-bold uppercase ">About Us</p>
+                <p className="flex lg:text-9xl md:text-5xl lg:my-16 sm:text-2xl font-bold uppercase ">About Us</p>
                 <h2 className="mb-6 max-w-lg text-5xl font-light leading-snug tracking-tight text-g1 sm:text-7xl sm:leading-snug">
                   Professional Care for Your
-                  <span className="my-1 inline-block border-b-8 border-g4 px-4 font-bold text-g4 animate__animated animate__flash">Beloved Pets</span>
+                  <span className="my-1 inline-block border-b-8 border-g4 px-2 font-bold text-g4 animate__animated animate__flash">Beloved Pets</span>
                 </h2>
-                <p className="text-base text-gray-700 dark:text-gray-300 ">
+                <p className=" text-gray-700 dark:text-gray-300 text-lg">
                   Welcome to our dog washing service! Our team of skilled groomers is passionate about providing the best care for your furry friends. We ensure a stress-free and enjoyable grooming experience for every dog.
                 </p>
                 <div className="mt-10 flex flex-col items-center md:flex-row">
@@ -49,7 +45,8 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
-        <div className="hidden md:block md:text-9xl sm:text-wrap sm:text-center absolute top-8 left-1/3  text-g/10 ">About Us</div>
+
+
       </div>
     </div>
   );
