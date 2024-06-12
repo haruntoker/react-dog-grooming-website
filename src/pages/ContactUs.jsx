@@ -1,6 +1,6 @@
 
 import { useState } from 'react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { ChevronDownIcon, ChevronDoubleDownIcon} from '@heroicons/react/20/solid'
 import { Field, Label, Switch } from '@headlessui/react'
 import dogHeader from "../assets/dog-3.png"
 
@@ -116,7 +116,7 @@ export default function ContactUs() {
                   <option>EU</option>
                 </select>
                 <ChevronDownIcon
-                  className="pointer-events-none absolute right-3 top-0 h-full w-5 text-gray-400"
+                  className="pointer-events-none absolute right-2 top-0 bottom-2 h-full w-5 text-gray-800"
                   aria-hidden="true"
                 />
               </div>

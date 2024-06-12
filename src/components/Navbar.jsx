@@ -69,15 +69,7 @@ export default function Navbar() {
                     About
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    // to="/services"
-                    to="/customer-service"
-                    className="duration-300 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black   md:p-0 dark:text-white md:dark:hover:text-slate-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  >
-                    FAQ
-                  </Link>
-                </li>
+               
                 <li>
                   <Link
                     to="/price-list"
@@ -87,6 +79,17 @@ export default function Navbar() {
                     Pricing
                   </Link>
                 </li>
+
+                <li>
+                  <Link
+                    // to="/services"
+                    to="/customer-service"
+                    className="duration-300 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black   md:p-0 dark:text-white md:dark:hover:text-slate-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >
+                    FAQ
+                  </Link>
+                </li>
+                
                 <li>
                   <Link
                     to="/contact-us"
