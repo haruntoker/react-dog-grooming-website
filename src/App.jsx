@@ -48,8 +48,8 @@ const AboutUsPage = () => (
 // Create the router with the defined routes
 const router = createBrowserRouter([
   { path: "/", element: <HomePage /> },
-  { path: "/price-list", element: <PriceListPage /> },
-  { path: "/services", element: <ServicesPage /> },
+  // { path: "/price-list", element: <PriceListPage /> },
+  // { path: "/services", element: <ServicesPage /> },
   { path: "/contact-us", element: <ContactUsPage /> },
   { path: "/about-us", element: <AboutUsPage /> },
 ]);
