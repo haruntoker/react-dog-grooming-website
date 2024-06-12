@@ -37,7 +37,7 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
-        <div className="text-9xl  absolute top-8 left-1/3  text-g/10 ">About Us</div>
+        <div className="hidden md:block md:text-9xl sm:text-wrap absolute top-8 left-1/3  text-g/10 ">About Us</div>
       </div>
     </div>
   );
