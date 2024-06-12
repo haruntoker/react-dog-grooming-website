@@ -8,6 +8,7 @@ import Layout from "./layout/Layout";
 import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs";
 import NotFound from "./pages/NotFound";
+import CustomerService from "./pages/CustomerService";
 
 // Define the Home component for the root path
 const HomePage = () => (
@@ -49,6 +50,12 @@ const NotFoundPage = () =>(
   <Layout>
     <NotFound />
   </Layout>
+);
+
+const CustomerServicePage = () => (
+  <Layout>
+    <CustomerService />
+  </Layout>
 )
 
 
@@ -60,6 +67,7 @@ const router = createBrowserRouter([
   { path: "/contact-us", element: <ContactUsPage /> },
   { path: "/about-us", element: <AboutUsPage /> },
   { path: "*", element: <NotFoundPage /> },
+  { path: "/customer-service", element: <CustomerServicePage /> },
 ]);
 
 function App() {

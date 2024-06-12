@@ -7,8 +7,8 @@ export default function NotFound() {
         This example requires updating your template:
 
         ```
-        <html class="h-full">
-        <body class="h-full">
+        <html className="h-full">
+        <body className="h-full">
         ```
       */}
       <main className="grid min-h-full place-items-center px-6 py-24 sm:py-40 lg:px-8">
@@ -23,7 +23,7 @@ export default function NotFound() {
             >
               Go back home
             </Link>
-            <Link to="/" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 text-lg font-semibold text-gray-900 dark:text-white ">
+            <Link to="/customer-service" className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 text-lg font-semibold text-gray-900 dark:text-white ">
               Contact support <span aria-hidden="true">&rarr;</span>
             </Link>
           </div>

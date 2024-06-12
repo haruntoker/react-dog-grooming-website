@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="bg-gray-200 border-gray-200 dark:bg-gray-900 shadow-xl ">
         <nav className="">
           <div className="max-w-screen-4xl text-2xl flex flex-wrap items-center justify-between mx-auto p-6">
-            <Link href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+            <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
               <img
                 src={Logo}
                 className="h-12"
@@ -71,11 +71,11 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
-                    to="/services"
-                    // to="/"
+                    // to="/services"
+                    to="/customer-service"
                     className="duration-300 block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black   md:p-0 dark:text-white md:dark:hover:text-slate-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
-                    Services
+                    FAQ
                   </Link>
                 </li>
                 <li>
