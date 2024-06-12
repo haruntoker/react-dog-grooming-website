@@ -3,14 +3,7 @@ import { Link } from "react-router-dom"
 export default function NotFound() {
   return (
     <>
-      {/*
-        This example requires updating your template:
-
-        ```
-        <html className="h-full">
-        <body className="h-full">
-        ```
-      */}
+     
       <main className="grid min-h-full place-items-center px-6 py-24 sm:py-40 lg:px-8">
           {/* background item */}
           <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true">
