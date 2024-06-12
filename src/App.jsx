@@ -7,6 +7,7 @@ import Services from "./pages/Services";
 import Layout from "./layout/Layout";
 import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs";
+import NotFound from "./pages/NotFound";
 
 // Define the Home component for the root path
 const HomePage = () => (
@@ -44,6 +45,12 @@ const AboutUsPage = () => (
 
 );
 
+const NotFoundPage = () =>(
+  <Layout>
+    <NotFound />
+  </Layout>
+)
+
 
 // Create the router with the defined routes
 const router = createBrowserRouter([
@@ -52,6 +59,7 @@ const router = createBrowserRouter([
   // { path: "/services", element: <ServicesPage /> },
   { path: "/contact-us", element: <ContactUsPage /> },
   { path: "/about-us", element: <AboutUsPage /> },
+  { path: "*", element: <NotFoundPage /> },
 ]);
 
 function App() {
